@@ -1,7 +1,13 @@
 #include <windows.h>
 #include <stdio.h>
 
-something hook_Proc(.....)
+LRESULT hook_Proc(int code, WPARAM WParam, LPARAM LParam)
+{
+
+	//Log keyboard events
+	printf("Key was pressed!\n");
+
+}
 
 
 int main()
