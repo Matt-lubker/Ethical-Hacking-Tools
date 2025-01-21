@@ -14,6 +14,7 @@ int main()
 {
 
 	SetWindwHookExA(WH_KEYBOARD_LL, hook_Proc, NULL, 0);
+	if (hhook == NULL)
 
 
 }
